@@ -1,0 +1,73 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  }
+  
+  .registerTitle {
+    font-size: 50px;
+    font-family: 'Shalimar', cursive;
+  }
+  
+  .registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerForm > label {
+    margin: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .registerInput {
+      width: 200px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .registerInput:focus {
+    outline: none;
+  }
+  
+  .registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(221, 92, 213);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(221, 92, 213);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .registerLoginButton:hover {
+    background-color: rgb(169, 49, 173);
+  }
+
+  .registerButton:hover {
+    background-color: rgb(169, 49, 173);
+  }
